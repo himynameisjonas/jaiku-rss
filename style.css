@@ -1,0 +1,95 @@
+/* @override http://jaiku.himynameisjonas.net/style.css */
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.2
+*/
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend{color:#000;}
+
+/* REAL CSS */
+
+html {
+	background: url(clouds.jpg);
+	font-family: "Courier New", Courier, mono;
+}
+div#wrapper{
+	width: 600px;
+	margin: 100px auto 20px;
+	border: 20px solid #fff;
+	background: #fff;
+}
+
+h1{
+	text-align: center;
+	display: block;
+	background: #f2f2f2;
+	padding: 20px;
+	color: #333;
+	margin-bottom: 30px;
+	font: 670% Georgia, "Times New Roman", Times, serif;
+	word-spacing: -14px;
+}
+h2 {
+	color: #333;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font: bold 200% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.red,h2{
+	color: #ee3334;
+}
+div#content{
+	padding: 0 20px;
+}
+p{
+	margin-bottom: 0.8em;
+}
+form {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 200%;
+}
+input{
+	text-align: center;
+}
+a {
+	color: #3fbfff;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+a:hover{
+	border: 0;
+	color: inherit;
+	text-decoration: underline;
+}
+div#footer{
+	background: #f2f2f2;
+	padding: 1em;
+	text-align: center;
+	font: 70% "Courier New", Courier, mono;
+	letter-spacing: -0.1em;
+	word-spacing: -0.1em;
+}
+div#footer a{
+	color: inherit;
+	border: 0;
+}
